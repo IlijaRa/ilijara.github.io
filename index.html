@@ -12,6 +12,9 @@
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- dodato -->
+  <link href="css/modal.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -19,7 +22,6 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -272,11 +274,32 @@
             </div>
           </div>
         </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <div>
+              <img src="img/bootstrap_logo.png" alt="" class="img-fluid">
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title text-center">Front End design</h2>
+                  <p class="text-center">
+                    I often use Bootstrap mixed with Razor for the design. Both Frameworks are easy to handle 
+                    and give fast results. They don't interfere with each other, so its a powerful combination.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <!--/ Section Skills End /-->
+  
+  
 
+  
   <!--/ Section Projects Star /-->
   <section id="work" class="portfolio-mf sect-pt4 route">
     <div class="container">
@@ -297,59 +320,82 @@
       <div class="row">
         <div class="col-md-4">
           <div class="work-box">
-            <a href="img/fishing_booker_flyer.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/fishing_booker_flyer.jpg" alt="" class="img-fluid">
+            <div class="image">
+              <img class="image__img" src="img/fitness_center_flyer.jpg" alt="FitnessCenter">
+              <div class="image__overlay image__overlay--blur">
+                  <div class="image__title">FitnessCenter</div>
+                  <p class="image__description">
+                    <a href="https://github.com/IlijaRa/FitnessCenter" target="_blank" style="color: #F06628; text-decoration:underline;">View on GitHub</a>
+                  </p>
               </div>
-            </a>
+          </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="work-box">
-            <a href="img/fitness_center_flyer.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/fitness_center_flyer.jpg" alt="" class="img-fluid">
+            <div class="image">
+              <img class="image__img" src="img/service_shop_flyer.jpg" alt="ServiceShop">
+              <div class="image__overlay image__overlay--blur">
+                  <div class="image__title">ServiceShop</div>
+                  <p class="image__description">
+                    <a href="https://github.com/IlijaRa/ServiceShop" target="_blank" style="color: #F06628; text-decoration:underline;">View on GitHub</a>
+                  </p>
               </div>
-            </a>
+          </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="work-box">
-            <a href="img/service_shop_flyer.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/service_shop_flyer.jpg" alt="" class="img-fluid">
+            <div class="image">
+              <img class="image__img" src="img/hungarian_method_flyer.jpg" alt="HungarianMethod">
+              <div class="image__overlay image__overlay--blur">
+                  <div class="image__title">HungarianMethod</div>
+                  <p class="image__description">
+                    <a href="https://github.com/IlijaRa/HungarianMethod" target="_blank" style="color: #F06628; text-decoration:underline;">View on GitHub</a>
+                  </p>
               </div>
-            </a>
+          </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="work-box">
-            <a href="img/hungarian_method_flyer.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/hungarian_method_flyer.jpg" alt="" class="img-fluid">
+            <div class="image">
+              <img class="image__img" src="img/c_compiler_flyer.jpg" alt="CCompiler">
+              <div class="image__overlay image__overlay--blur">
+                  <div class="image__title">CCompiler</div>
+                  <p class="image__description">
+                    <a href="https://github.com/IlijaRa/miniCCompiler" target="_blank" style="color: #F06628; text-decoration:underline;">View on GitHub</a>
+                  </p>
               </div>
-            </a>
+          </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="work-box">
-            <a href="img/c_compiler_flyer.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/c_compiler_flyer.jpg" alt="" class="img-fluid">
+            <div class="image">
+              <img class="image__img" src="img/wart_classifier.jpg" alt="WartClassifier">
+              <div class="image__overlay image__overlay--blur">
+                  <div class="image__title">WartClassifier</div>
+                  <p class="image__description">
+                    <a href="https://github.com/IlijaRa/WartTreatment" target="_blank" style="color: #F06628; text-decoration:underline;">View on GitHub</a>
+                  </p>
               </div>
-            </a>
+          </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="work-box">
-            <a href="img/wart_classifier.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/wart_classifier.jpg" alt="" class="img-fluid">
+            <div class="image">
+              <img class="image__img" src="img/fishing_booker_flyer.jpg" alt="FishingBooker">
+              <div class="image__overlay image__overlay--blur">
+                  <div class="image__title">FishingBooker</div>
+                  <p class="image__description">
+                      <a href="https://github.com/IlijaRa/FishingBooker" target="_blank" style="color: #F06628; text-decoration:underline;">View on GitHub</a>
+                  </p>
               </div>
-            </a>
+          </div>
           </div>
         </div>
-        
       </div>
     </div>
   </section>
@@ -461,7 +507,10 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/typed/typed.min.js"></script>
-
+  
+  <!-- dodato -->
+  <script src="js/modal.js"></script>
+  
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
 
