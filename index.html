@@ -24,6 +24,8 @@
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+
+  
 </head>
 
 <body id="page-top">
@@ -439,7 +441,7 @@
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          <button type="submit" class="button button-a button-big button-rouded" onclick="sendMail()">Send Message</button>
                         </div>
                       </div>
                     </form>
@@ -518,5 +520,14 @@
   <!-- Ionicons Web Component -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- EmailJS for contact form -->
+  <script src="js/email.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"> </script>
+  <script type="text/javascript">
+    (function(){
+          emailjs.init("KWsEW_d1abrJaqb5T");
+      })();
+  </script>
 </body>
 </html>
