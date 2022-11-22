@@ -284,7 +284,7 @@
                 <div class="col-sm-12">
                   <h2 class="w-title text-center">Front End design</h2>
                   <p class="text-center">
-                    I often use Bootstrap mixed with Razor for the design. Both Frameworks are easy to handle 
+                    I often use Bootstrap mixed with Razor for the design. Both technologies are easy to handle 
                     and give fast results. They don't interfere with each other, so its a powerful combination.
                   </p>
                 </div>
@@ -417,23 +417,24 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="" method="post">
+                      <form action="https://formsubmit.co/el/tukuhi" method="POST" >
+                        <input type="hidden" name="_next" value="https://ilijara.github.io/thanks.html">
                       <div class="row">
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <input type="text" class="form-control" name="name"  id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" class="form-control" name="name"  id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
                             <div class="validation"></div>
                           </div>
                         </div>
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
                             <div class="validation"></div>
                           </div>
                         </div>
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" rows="7" placeholder="Message" data-rule="required" data-msg="Please write something" ></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="7" placeholder="Message" data-rule="required" data-msg="Please write something" required></textarea>
                             <div class="validation"></div>
                           </div>
                         </div>
